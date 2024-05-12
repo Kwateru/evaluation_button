@@ -20,7 +20,6 @@ Goodボタン/Badボタンを設置する。加えて、ボタンを押下した
 * formタグ（HTML）
 * POST（PHP）
 * SELECT、COUNT、WHERE（SQL）
-
 <br><br>
 
 ## 3.画面設計
