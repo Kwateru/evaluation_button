@@ -59,6 +59,14 @@ include('db/connection.php');
         </div>
 
         <div class="features">
+            <h2>投票</h2>
+            <form method="post">
+                <button type="submit" name="vote" value="Good"><span>6</span>Good</button>
+                <button type="submit" name="vote" value="Bad"><span>10</span>Bad</button>
+            </form>
+        </div>
+
+        <div class="features">
             <h2>能力</h2>
             <dl>
                 <div>
