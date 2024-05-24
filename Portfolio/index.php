@@ -7,6 +7,9 @@ $title = '自己紹介ページ';
 
 // DB接続
 include('db/connection.php');
+
+// 投票の集計
+include('function/get_votes.php');
 ?>
 
 <!DOCTYPE html>
@@ -60,9 +63,9 @@ include('db/connection.php');
 
         <div class="features">
             <h2>投票</h2>
-            <form method="post">
-                <button type="submit" name="vote" value="Good"><span>6</span>Good</button>
-                <button type="submit" name="vote" value="Bad"><span>10</span>Bad</button>
+            <form method="post" action="function/vote.php">
+                <button type="submit" name="vote" value="good" class="btn-vote"><span class="vote-css"><?php echo $goodVotes ?></span>Good</button>
+                <button type="submit" name="vote" value="bad" class="btn-vote"><span class="vote-css"><?php echo $badVotes ?></span>Bad</button>
             </form>
         </div>
 
