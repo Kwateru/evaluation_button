@@ -64,8 +64,12 @@ include('function/get_votes.php');
         <div class="features">
             <h2>投票</h2>
             <form method="post" action="function/vote.php">
-                <button type="submit" name="vote" value="good" class="btn-vote"><span class="vote-css"><?php echo $goodVotes ?></span>Good</button>
-                <button type="submit" name="vote" value="bad" class="btn-vote"><span class="vote-css"><?php echo $badVotes ?></span>Bad</button>
+                <button type="submit" name="vote" value="good" class="btn-vote">
+                    <span class="vote-css"><?php echo $goodVotes ?></span>Good
+                </button>
+                <button type="submit" name="vote" value="bad" class="btn-vote">
+                    <span class="vote-css"><?php echo $badVotes ?></span>Bad
+                </button>
             </form>
         </div>
 
