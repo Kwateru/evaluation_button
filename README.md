@@ -1,3 +1,12 @@
+<img src="https://img.shields.io/badge/PHP-ccc.svg?logo=php&style=flat"> <img src="https://img.shields.io/badge/-CSS3-1572B6.svg?logo=css3&style=flat"> <img src="https://img.shields.io/badge/-HTML5-333.svg?logo=html5&style=flat">
+<img src="https://img.shields.io/badge/-Windows-0078D6.svg?logo=windows&style=flat">
+<img src="https://img.shields.io/badge/-MySQL-336791.svg?logo=mysql&style=flat">
+<img src="https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC.svg?logo=visual-studio-code&style=flat">
+<img src="https://img.shields.io/badge/-GitHub-181717.svg?logo=github&style=flat">
+<img src="https://img.shields.io/badge/-Docker-EEE.svg?logo=docker&style=flat">
+
+
+
 ![image](https://github.com/Kwateru/evaluation_button/assets/33171676/9cec7615-e6e3-4c84-b754-ffecc0453500)
 
 ## 1.概要
